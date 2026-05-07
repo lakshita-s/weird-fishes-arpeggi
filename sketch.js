@@ -26,9 +26,12 @@ function setup() {
 
 
 function mousePressed() {
-  if (!song.isPlaying()) song.play();
+  if (song.isPlaying()) {
+    song.stop();
+  } else {
+    song.play();
+  }
 }
-
 
 
 function draw() {
