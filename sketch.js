@@ -1,5 +1,5 @@
 let inge;
-const fontSize = 90;
+const fontSize = 100;
 let sample = 0.2;
 let r = 0;
 let hiArray;
@@ -14,7 +14,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(600, 600);
   textFont(inge);
   textSize(fontSize);
   noFill();
@@ -38,7 +38,7 @@ function draw() {
 
   push();
 tint(255, 50); 
-  image(img, width/2+10, width/2,600, 600)
+  image(img, width/2+10, width/2,700, 700)
   pop();
   
   //split lines by space
